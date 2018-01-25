@@ -1,0 +1,11 @@
+.category-list {
+    margin: 20px 40px;
+
+    &__item {
+        padding: 5px 0;
+    }
+
+    &__link {
+        color: #444;
+    }
+}

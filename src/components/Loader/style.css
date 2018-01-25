@@ -1,0 +1,29 @@
+$border-color: #c3cbd7;
+$side-size: 75px;
+
+@define-mixin side-size {
+    width: $side-size;
+    height: $side-size;
+}
+
+.loader-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    @add-mixin side-size;
+    border: 3px solid $border-color;
+    border-top: 3px solid #708090;
+    border-radius: calc($side-size / 2);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,36 @@
+$background-color: #fff;
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $background-color;
+    font-family: Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+img {
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+button:active, button:focus {
+	outline: none;
+	border: none;
+}

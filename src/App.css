@@ -1,0 +1,20 @@
+.link {
+    color: #0062ac;
+}
+
+.button {
+    display: inline-block;
+    margin: 20px 20px 0px;
+    padding: 4px 10px;
+    border: 0;
+    border-radius: 5px;
+	background: #c4ccd8;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    transition-duration: 1s;
+    
+    &:hover {
+        background: #07b2e5;
+    }
+}
